@@ -7,6 +7,7 @@
     "phalcon",
     "ORM"
   ],
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -14,12 +15,12 @@
       "email": "liangzy@gaore.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6.0"
   },
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "Quan\\": "system/"
     }
   },
