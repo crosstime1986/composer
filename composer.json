@@ -18,8 +18,10 @@
   "require": {
     "php": ">=5.6.0"
   },
-  "extra": {
-    "think-path": "system"
+  "autoload": {
+    "psr-4": {
+      "Quan\\": "system/"
+    }
   },
   "config": {
     "preferred-install": "dist"
