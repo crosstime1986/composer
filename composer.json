@@ -1,4 +1,10 @@
 {
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://192.168.199.2:8822"
+    }
+  ],
   "name": "zhengyou/phalcon-mvc",
   "description": "mvc framework base on phalcon .",
   "type": "project",
@@ -7,7 +13,7 @@
     "phalcon",
     "ORM"
   ],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -32,8 +38,20 @@
     "secure-http": false
   },
   "scripts": {
-    "post-update-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
-    "post-package-install": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
-    "post-install-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"]
+    "post-update-cmd": [
+      "rm -rf system",
+      "mv vendor/zhengyou/phalcon-framework system",
+      "rm -rf vendor/zhengyou/"
+    ],
+    "post-package-install": [
+      "rm -rf system",
+      "mv vendor/zhengyou/phalcon-framework system",
+      "rm -rf vendor/zhengyou/"
+    ],
+    "post-install-cmd": [
+      "rm -rf system",
+      "mv vendor/zhengyou/phalcon-framework system",
+      "rm -rf vendor/zhengyou/"
+    ]
   }
 }
