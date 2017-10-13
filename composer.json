@@ -7,7 +7,7 @@
     "phalcon",
     "ORM"
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -30,5 +30,10 @@
   "config": {
     "preferred-install": "dist",
     "secure-http": false
+  },
+  "scripts": {
+    "post-update-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
+    "post-package-install": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
+    "post-install-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
   }
 }
