@@ -34,6 +34,6 @@
   "scripts": {
     "post-update-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
     "post-package-install": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
-    "post-install-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"],
+    "post-install-cmd": ["rm -rf system", "mv vendor/zhengyou/phalcon-framework system", "rm -rf vendor/zhengyou/"]
   }
 }
