@@ -1,4 +1,10 @@
 {
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://192.168.199.2:8822"
+    }
+  ],
   "name": "zhengyou/phalcon-mvc",
   "description": "mvc framework base on phalcon .",
   "type": "project",
@@ -28,6 +34,7 @@
     "quan-path": "system"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http": false
   }
 }
