@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "zhengyou/phalcon-framework": "^1.0.1"
+    "zhengyou/phalcon-framework": "~1.0.1"
   },
   "autoload": {
     "psr-0": {
