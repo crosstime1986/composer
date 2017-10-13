@@ -15,7 +15,6 @@
       "email": "liangzy@gaore.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.6.0",
     "zhengyou/phalcon-framework": "~1.0.0"
