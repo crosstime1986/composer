@@ -17,12 +17,16 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.6.0"
+    "php": ">=5.6.0",
+    "zhengyou/phalcon-framework": "~0.0.1"
   },
   "autoload": {
     "psr-0": {
-      "Quan\\": "system/"
+      "Quan\\": "applications/"
     }
+  },
+  "extra": {
+    "quan-path": "system"
   },
   "config": {
     "preferred-install": "dist"

@@ -1,0 +1,11 @@
+gaore_platform: &gaore_platform
+  host: localhost
+  password: 123456
+  username: root
+  dbname: gaore_platform
+  port: 3306
+  charset: utf8
+  prefix: gr_
+
+default:
+  <<: *gaore_platform
