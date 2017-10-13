@@ -13,7 +13,7 @@
     "phalcon",
     "ORM"
   ],
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -39,18 +39,15 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "rm -rf system",
-      "mv vendor/zhengyou/phalcon-framework system",
+      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system; mv vendor/zhengyou/phalcon-framework system; fi",
       "rm -rf vendor/zhengyou/"
     ],
     "post-package-install": [
-      "rm -rf system",
-      "mv vendor/zhengyou/phalcon-framework system",
+      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system; mv vendor/zhengyou/phalcon-framework system; fi",
       "rm -rf vendor/zhengyou/"
     ],
     "post-install-cmd": [
-      "rm -rf system",
-      "mv vendor/zhengyou/phalcon-framework system",
+      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system; mv vendor/zhengyou/phalcon-framework system; fi",
       "rm -rf vendor/zhengyou/"
     ]
   }
