@@ -1,0 +1,16 @@
+{
+    "name": "zhengyou/phalcon-mvc",
+    "description": "mvc framework base on phalcon .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liangzhiyuan",
+            "email": "liangzy@gaore.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.6.0"
+    }
+}
