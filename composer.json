@@ -13,7 +13,7 @@
     "phalcon",
     "ORM"
   ],
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -39,13 +39,13 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system && mv vendor/zhengyou/phalcon-framework system &&  rm -rf vendor/zhengyou/ ; fi"
+      "Quan\\Composer\\Script::run"
     ],
     "post-package-install": [
-      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system && mv vendor/zhengyou/phalcon-framework system &&  rm -rf vendor/zhengyou/ ; fi"
+      "Quan\\Composer\\Script::run"
     ],
     "post-install-cmd": [
-      "if [ -f vendor/zhengyou/phalcon-framework ]; then  rm -rf system && mv vendor/zhengyou/phalcon-framework system &&  rm -rf vendor/zhengyou/ ; fi"
+      "Quan\\Composer\\Script::run"
     ]
   }
 }
