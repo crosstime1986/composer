@@ -13,7 +13,7 @@
     "phalcon",
     "ORM"
   ],
-  "version": "1.0.10",
+  "version": "1.0.11",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -36,16 +36,5 @@
   "config": {
     "preferred-install": "dist",
     "secure-http": false
-  },
-  "scripts": {
-    "post-update-cmd": [
-      "Quan\\Composer\\Script::run"
-    ],
-    "post-package-install": [
-      "Quan\\Composer\\Script::run"
-    ],
-    "post-install-cmd": [
-      "Quan\\Composer\\Script::run"
-    ]
   }
 }
